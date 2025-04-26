@@ -1,4 +1,4 @@
-import { checkStock } from "./scripts/matchaStock";
+import { checkStock } from "./scripts/matchaStock.js";
 
 export async function GET(request: Request) {
     try {
