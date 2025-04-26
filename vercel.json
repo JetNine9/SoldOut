@@ -1,7 +1,7 @@
 {
     "crons": [
       {
-        "path": "/api/matcha-cron-job",
+        "path": "/scripts/matcha-cron-job",
         "schedule": "0 5 * * *"
       }
     ]
