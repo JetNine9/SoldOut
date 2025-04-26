@@ -18,9 +18,12 @@ export async function checkStock() {
 
     if (buttonText.includes('Sold out')) {
       console.log('🟥 Koyamaen Matcha is SOLD OUT');
+      return {foundButton: true, isSoldOut: true};
     } else {
       console.log('🟩 Koyamaen Matcha Item is IN STOCK!');
+      return {foundButton: false, isSoldOut: false};
     }
+
   } catch (err) {
     console.error('❌ Could not find the button:', err);
   }
