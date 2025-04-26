@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check:matcha": "ts-node scripts/matchaStock.ts"
+    "check:matcha": "ts-node api/scripts/matchaStock.ts"
   },
   "keywords": [],
   "author": "",

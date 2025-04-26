@@ -2,7 +2,7 @@
     "compilerOptions": {
       "baseUrl": ".",
       "paths": {
-        "@matcha/*": ["src/matcha/*"]
+        "*": ["*"]
       },
       "module": "ESNext",
       "target": "ES2020",
