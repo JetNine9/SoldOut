@@ -1,6 +1,6 @@
 // src/api/matcha-cron-job.ts
 
-import { checkStock } from '../matcha/matchaStock';
+import { checkStock } from '../src/matcha/matchaStock';
 
 export async function GET(request: Request) {
     try {
