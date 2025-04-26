@@ -1,9 +1,7 @@
-{
-    "builds": [
-      {
-        "src": "src/api/matcha-cron-job.ts",
-        "schedule": "0 5 * * *"
-      }
-    ]
+
+  {
+    "crons": [{
+      "path": "src/api/matcha-cron-job.ts",
+      "schedule": "0 10 * * *"
+    }]
   }
-  
