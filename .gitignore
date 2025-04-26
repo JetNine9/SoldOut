@@ -1,1 +1,12 @@
 .vercel
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore .env file (optional, for security reasons)
+.env
+
+# Other common files/folders to ignore
+.DS_Store   # macOS
+.vscode/     # VS Code settings
+*.log        # Log files
