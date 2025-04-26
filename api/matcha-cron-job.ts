@@ -1,4 +1,4 @@
-import { checkStock } from '@matcha/matchaStock';
+import { checkStock } from '../src/matcha/matchaStock';
 
 export async function GET(request: Request) {
     try {
