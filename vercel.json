@@ -1,0 +1,9 @@
+{
+    "builds": [
+      {
+        "src": "src/api/matcha-cron-job.ts",
+        "use": "@vercel/node"
+      }
+    ]
+  }
+  

@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 
-async function checkStock() {
+export async function checkStock() {
 
   const browser = await chromium.launch({ headless: false, slowMo: 1000 });
   const context = await browser.newContext({
@@ -22,10 +22,9 @@ async function checkStock() {
       console.log('🟩 Koyamaen Matcha Item is IN STOCK!');
     }
   } catch (err) {
-    console.error('❌ Could not find the button:', err.message);
+    console.error('❌ Could not find the button:', err);
   }
 
   await browser.close();
 }
 
-checkStock();
