@@ -12,6 +12,9 @@ export async function GET(request: Request) {
     return new Response(`${isSoldOut ? "Koyamaen Matcha is sold out " : "Koyamaen is in Stock !!"}`);  
 
   } catch (error) {
+
     console.error("Error in cron job:", error);
+    return new Response(`Cron Job Error`);  
+
   }
 }

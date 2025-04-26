@@ -30,4 +30,5 @@ export async function checkStock() {
 
   await browser.close();
 }
+checkStock();
 
